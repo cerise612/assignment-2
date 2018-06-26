@@ -1,27 +1,131 @@
-*{
+/* body{
+    font-family: 'Montserrat Alternates', sans-serif;
     background-color: #fffafa
+} */
+
+/* landing page */
+
+/* nav bar */
+
+#header {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #fffafa;
+    color: black;
 }
 
-.banner{
-    background-image: url(/images/banner.jpg);
+a:link {
+    color: #633894;
+}
+
+/* visited link */
+
+a:visited {
+    color: #FD0157;
+}
+
+/* banner */
+
+#banner {
+    background-image: url("../images/banner.jpg");
     background-repeat: no-repeat;
-    background-size: 1000px 300px;
+    background-size: 1450px 200px;
 }
 
-.sectionlink{
-    animation: winanim 1s;  
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
 }
+
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Row 3 */
+
+.row3icon {
+    margin-top: 5px;
+    margin-left: 200px;
+}
+h6{
+    margin-left: 210px;
+    font-family: 'Quicknd', sans-serif;
+
+}
+#eye {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+}
+
+#row3 {
+    background-color: #fffafa;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Row 4 and Row 5 Portfolio and Contact link */
+
+#portfoliolink {
+    background-color: #fffafa;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+#portfolioimage {
+    width: 1100px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+#contactlink {
+    background-color: #fffafa;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#contactimage {
+    width: 740px;
+    height: 500px;
+}
+
+#contactrow {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* hyperlink colors */
+
+/* unvisited link */
 
 /* Footer */
-.footer{
+
+#footer {
     border-top: silver;
     border-top-style: groove;
+    background-color: #fffafa;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: smaller;
     color: black;
-    font-size: smaller;  
-    text-align: center;  
+    font-size: smaller;
+    text-align: center;
+    padding-left: 700px;
+    /* margin-top: 20px; */
+    /* padding-top: 20px;   */
+    /* margin-bottom: 20px; */
 }
 
+/* Page 2 Works */
+
 /* portfolio style */
+
 .portfolio {
     position: relative;
     margin: 5px;
@@ -31,37 +135,62 @@
     transition-duration: 0.4s;
     border-radius: 5px;
     animation: winanim 1s;
--webkit-backface-visibility:visible;
-    backface-visibility:visible;
-    box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 5px 8px 0 rgba(0,0,0,.14),0 1px 14px 0 rgba(0,0,0,.12)
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12)
 }
-
 
 .portfolio:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
-}
-
-.portfolio img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 
 .card {
     padding: 5px;
     text-align: center;
     font-size: 90%;
-    background:white;
+    background: white;
     color: black
 }
 
+/* page 3 contact */
+
+/* form */
 
 
+#coffee {
+    align-items: center;
+}
 
+/* responsiveness */
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    /* #portfolio img {
+        width: 45%
+    } */
+    /* #contactimage {
+        width: 45%
+    } */
+}
 
 @keyframes winanim {
-    0%{transform:perspective(400px) rotateX(90deg);animation-timing-function:ease-in;opacity:0}
-    40%{transform:perspective(400px) rotateX(-20deg);animation-timing-function:ease-in}
-    60%{transform:perspective(400px) rotateX(10deg);opacity:1}
-    80%{transform:perspective(400px) rotateX(-5deg)}to{transform:perspective(400px)}
+    0% {
+        transform: perspective(400px) rotateX(90deg);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+    40% {
+        transform: perspective(400px) rotateX(-20deg);
+        animation-timing-function: ease-in
+    }
+    60% {
+        transform: perspective(400px) rotateX(10deg);
+        opacity: 1
+    }
+    80% {
+        transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+        transform: perspective(400px)
+    }
 }
