@@ -1,0 +1,90 @@
+.HomePage{
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 9vh 5vh 10vh 15vh 5vh 5vh 25vh 25vh 5vh
+}
+.homeNavBarDiv{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%;
+}
+.homeBannerDiv{
+    background-image: url("../../images/home/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: span 4;
+    width: 100%;
+    position: relative;
+    right: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.homeTitleDiv{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 3vw;
+}
+.homeName{
+    font-size: x-large;
+}
+.bannerSummary{
+    position: relative;
+    top: 1vh;
+}
+.homeSkillsDiv{
+    display: flex;
+    flex-direction: row
+}
+.skillsTitle{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    position: relative;
+    left: 17vw;
+    top: 3vh;
+}
+.frontEnd{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    position: relative;
+    top: 10vh;
+    left: 6vw;
+}
+.backEnd{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    position: relative;
+    top: 10vh;
+    left:6vw;
+}
+/* .starDiv{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+} */
+.homeCenterDiv{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: span 6;
+    display: flex;
+    flex-direction: row;
+}
+.starImage{
+    
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: white;
+}
+
+/* original state */
+a:link {
+  color: #633894;
+}
+
+/* visited link */
+
+a:visited {
+  color: #FD0157;
+}
