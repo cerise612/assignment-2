@@ -17,9 +17,9 @@ class Footer extends Component {
                                 </div>
                                 <div className="footerSearch">
                                         <div className="searchDiv">
-                                                <FormInput className="searchField" label="Search:" type="text" name="search" />
+                                                <FormInput className="FooterSearchField" type="text" name="search" value="search"> </FormInput>
                                         </div>
-                                        <Btn className="footerSearchBtn" label="Search" />
+                                        <Btn className="footerSearchBtn">Search</Btn>
                                 </div>
                         </div>
                 )

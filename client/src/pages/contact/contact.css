@@ -1,0 +1,57 @@
+.HomePage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 9vh 25vh 5vh
+}
+.contactNavBarDiv{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%;
+}
+.contactSide1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 1vw;
+    position: relative;
+    top:15vh;
+    left:15vw;
+    font-size: large
+}
+.contactForm{
+    margin-bottom: 2vh;
+}
+.contactNameField{
+    margin-bottom: 2vh;
+}
+.contactEmailField{
+    margin-bottom: 2vh;
+}
+.contactCompanyField{
+    margin-bottom: 2vh;
+}
+.contactMessageField{
+    margin-bottom: 2vh;
+}
+.contactSide2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    position: relative;
+    bottom:22vh;
+    left: 20vw;
+}
+.contactFooterDiv{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    width: 100%;
+}

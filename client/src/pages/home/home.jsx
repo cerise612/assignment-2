@@ -62,8 +62,10 @@ class Home extends Component {
         <div className="starImage">
         <img src={Star} alt="star" id="starIcon"/>
         </div>
-        <div className="starList">
+       <div className="starTitle">
         <h4>Discover</h4>
+        </div>
+        <div className="starList">
         <ul>
         <li>
                 Research
@@ -81,8 +83,10 @@ class Home extends Component {
         <div className="heartImage">
         <img src={Heart} alt="heart" id="heartIcon"/>
         </div>
-        <div className="heartList">
+        <div className="heartTitle">
         <h4>Design</h4>
+        </div>
+        <div className="heartList">
         <ul>
           <li>
                 Branding
@@ -106,8 +110,10 @@ class Home extends Component {
         <div className="eyeImage">
         <img src={Eye} alt="eye" id="eyeIcon"/>
         </div>
-        <div className="eyeList">
+        <div className="eyeTitle">
         <h4>Deploy</h4>
+        </div>
+        <div className="eyeList">
         <ul>
             <li>
                 Prototyping
@@ -122,31 +128,31 @@ class Home extends Component {
         </div>
         </div>
         </div>
-        {/* <div className="homePortfolioDiv">
+        <div className="homePortfolioDiv">
         <div className="homePortfolioImage">
-        <img src={PortfolioImage} alt="landscape" id="portfolioPhoto"/>
+        <img src={PortfolioImage} alt="landscape" id="portfolioPhoto" width="844px" height="500px"/>
         </div>
         <div className="homePortfolioLink">
             <Paragraph>
             <h1>Portfolio</h1>
             <p>Click below to see some projects I've been working on lately. </p>
-            <Link to='/portfolio'><Btn className="portfolioLinkBtn">Check out my latest projects</Btn></Link>
+            <Link to='/portfolio'><Btn className="portfolioLinkBtn"><h3>Check out my latest projects</h3></Btn></Link>
             </Paragraph>
         </div>
-        </div> */}
-        {/* <div className="homeContactDiv">
+        </div>
+        <div className="homeContactDiv">
         <div className="homeContactLink">
             <Paragraph>
             <h1>Get In Touch</h1>
-            <p>I'm available for remote work - if you would like to build something together <i class="fas fa-hand-point-down"></i></p>
-            <Link to='/contact'><Btn className="contactLinkBtn">Get in touch</Btn></Link>
+            <p>I'm available for remote work - if you would like to build something together. <i class="fas fa-hand-point-down"></i></p>
+            <Link to='/contact'><Btn className="contactLinkBtn"><h3>Get in touch</h3></Btn></Link>
             </Paragraph>
         </div>
         <div className="homeContactImage">
-        <img src={ContactImage} alt="landscape" id="contactPhoto"/>
+        <img src={ContactImage} alt="landscape" id="contactPhoto" width="840.5px" height="500px"/>
         </div>
-        </div> */}
-      {/* <div className="homeNavBarDiv"><Footer /></div> */}
+        </div>
+      <div className="homeFooterDiv"><Footer /></div>
     </div>
     )
   }

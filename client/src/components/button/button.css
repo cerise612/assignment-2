@@ -10,3 +10,30 @@
     border-radius: 50%;
     
 }
+.portfolioLinkBtn{
+    background-color: white;
+    border-radius: 6px;
+    height: 6vh;
+    width: 15vw;
+    font-size: small;
+}
+.contactLinkBtn{
+    background-color: white;
+    border-radius: 6px;
+    height: 6vh;
+    width: 15vw;
+    font-size: small;
+}
+.footerSearchBtn{
+    background-color: white;
+    border-radius: 6px;
+    height: 2.5vh;
+    width: 4vw;   
+}
+.contactBtn{
+    background-color: white;
+    border-radius: 6px;
+    height: 5vh;
+    width: 8vw;
+    font-size: small;
+}

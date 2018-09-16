@@ -15,7 +15,7 @@ class Contact extends Component {
             name: '',
             email: '',
             company: '',
-            comment: ''
+            message: ''
         };
     }
     onChange = (e) => {
@@ -28,9 +28,9 @@ class Contact extends Component {
     onSubmit = (e) => {
         e.preventDefault();
 
-        const { name, email, company, comment } = this.state;
+        const { name, email, company, message } = this.state;
 
-        axios.post('#', { name, email, company, comment })
+        axios.post('#', { name, email, company, message })
             .then((result) => {
                 console.log("RESULT" + JSON.stringify(result))
                 this.props.history.push("../contact")
@@ -39,19 +39,19 @@ class Contact extends Component {
     }
 
     render() {
-        const { name, email, company, comment } = this.state;
+        const { name, email, company, message } = this.state;
         return (
             <div className="contactPage">
-                <div className="homeNavBarDiv"><NavBar /></div>
+                <div className="contactNavBarDiv"><NavBar /></div>
                 <div className="contactSide1">
                 <div className="contactForm">
                     <FormInput className="contactNameField" label="Name:" type="text" name="name" change={this.onChange} value={name} required />
-                    <FormInput className="contectEmailField" label="Email:" type="text" name="email" value={email} change={this.onChange} required />
+                    <FormInput className="contactEmailField" label="Email:" type="text" name="email" value={email} change={this.onChange} required />
                     <FormInput className="contactCompanyField" label="Company/Organization:" type="text" name="company" change={this.onChange} value={company} />
-                    <FormInput className="contactCommentField" label="Message:" type="textarea" name="comment" value={comment} change={this.onChange} required />
+                    <FormInput className="contactMessageField" label="Message:" type="textarea" name="comment" value={message} change={this.onChange} required />
                 </div>
                 <div className="formButton">
-                    <Btn className="contactBtn">Get in touch</Btn>
+                    <Btn className="contactBtn"><h3>Get in touch</h3></Btn>
                 </div>
                 </div>
                 <div className="contactSide2">
@@ -60,10 +60,11 @@ class Contact extends Component {
                 </div>
                 <div className="contactMessage">
                 <h2>Let's build something together!</h2>
-                <p> If you like my work and have some cool project to work on, or even if you’re interested in grabbing coffee and talking shop send me message.</p>
+                <p> If you like my work and have some cool project to work on,</p>
+                <p> or if you’re interested in grabbing coffee and talking shop send me message.</p>
                 </div>
                 </div>
-                <div className="homeNavBarDiv"><Footer /></div>
+                <div className="contactFooterDiv"><Footer /></div>
             </div>
         )
     }
