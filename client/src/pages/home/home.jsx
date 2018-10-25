@@ -28,10 +28,11 @@ class Home extends Component {
         <p>for clients all over the world.</p>
         </div>
         </div>
-        <div className="homeSkillsDiv">
+       <div className="skillsSide">
         <div className="skillsTitle">
         <h2>What I Do</h2>
         </div>
+        <div className="homeSkillsDiv">
         <div className="frontEnd">
             <b>Front End</b>
             <ul>
@@ -56,6 +57,7 @@ class Home extends Component {
             </ul>
           </div>
         </div>  
+        </div>
         </div>
         <div className="homeCenterDiv">
         <div className="starDiv">
@@ -130,7 +132,7 @@ class Home extends Component {
         </div>
         <div className="homePortfolioDiv">
         <div className="homePortfolioImage">
-        <img src={PortfolioImage} alt="landscape" id="portfolioPhoto" width="844px" height="500px"/>
+        <img src={PortfolioImage} alt="landscape" id="portfolioPhoto" width="839.5px" height="500px"/>
         </div>
         <div className="homePortfolioLink">
             <Paragraph>
@@ -149,10 +151,10 @@ class Home extends Component {
             </Paragraph>
         </div>
         <div className="homeContactImage">
-        <img src={ContactImage} alt="landscape" id="contactPhoto" width="840.5px" height="500px"/>
+        <img src={ContactImage} alt="landscape" id="contactPhoto" width="836px" height="500px"/>
         </div>
         </div>
-      <div className="homeFooterDiv"><Footer /></div>
+      {/* <div className="homeFooterDiv"><Footer /></div> */}
     </div>
     )
   }

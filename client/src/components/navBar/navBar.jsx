@@ -16,10 +16,11 @@ class NavBar extends Component {
     <div className="navBarPortfolioLink"><Link to='/portfolio'>Work</Link></div>
     <div className="navBarContactLink"><Link to='/contact'>Contact</Link></div>
     <div className="navBarLinkedInLink">
-    <Link to='https://www.linkedin.com/in/danielle-doty/'><Btn className="linkedInLinkBtn"><img src={LinkedIn} alt="linkedIn" id="linkedInButton"/></Btn></Link>
+    <a href={'https://www.linkedin.com/in/danielle-doty/'} target="_blank"><Btn className="linkedInLinkBtn"><img src={LinkedIn} alt="linkedIn" id="linkedInButton"/></Btn> </a>
+   
     </div>
     <div className="navBarGitHubLink">
-    <Link to='https://github.com/cerise612'><Btn className="gitHubLinkBtn"><img src={GitHub} alt="gitHub" id="gitHubButton"/></Btn></Link>
+    <a href={'https://github.com/cerise612'} target="_blank"><Btn className="gitHubLinkBtn"><img src={GitHub} alt="gitHub" id="gitHubButton"/></Btn> </a>
     </div>
    
     

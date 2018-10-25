@@ -1,7 +1,7 @@
 .HomePage{
     display: grid;
     grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-rows: 9vh 5vh 10vh 15vh 5vh 25vh 25vh 5vh
+    grid-template-rows: 9vh 15vh 10vh 15vh 15vh 25vh 25vh 5vh
 }
 .homeNavBarDiv{
     grid-column-start: 1;
@@ -25,6 +25,7 @@
     padding-right: 2vw;
     display: flex;
     flex-wrap: wrap;
+    height: 35vh;
 }
 .homeTitleDiv{
     grid-column-start: 1;
@@ -40,36 +41,41 @@
     position: relative;
     top: 1vh;
 }
-.homeSkillsDiv{
+.skillsSide{
     display: flex;
-    flex-direction: row
+    flex-direction: column;  
 }
 .skillsTitle{
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 3;
-    position: relative;
-    left: 17vw;
-    top: 3vh;
+    order: 0;
+    align-items: center;
+    text-align: center;
+    margin-left: 10vw;
 }
+.homeSkillsDiv{
+    display: flex;
+    flex-direction: row;
+}
+
 .frontEnd{
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 4;
-    position: relative;
-    top: 10vh;
-    left: 6vw;
+    align-items: center;
+    margin-left: 10vw;
 }
 .backEnd{
     grid-column-start: 6;
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 4;
-    position: relative;
-    top: 10vh;
-    left:6vw;
+    align-items: center;
+    align-self: auto;
+    margin-left: 5vw;
 }
 .homeCenterDiv{
     grid-column-start: 1;
@@ -80,21 +86,37 @@
     flex-direction: row;
 }
 .starImage{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
     position: relative;
     top: 10vh;
     left:23vw;
 }
 .heartImage{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
     position: relative;
     top: 10vh;
     left:41vw;
 }
 .eyeImage{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
     position: relative;
     top: 12vh;
     left:57vw;
 }
 .starList{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
     position: relative;
     top: 10vh;
     left:21vw;
@@ -132,7 +154,8 @@
     grid-row-start: 6;
     grid-row-end: 6;
     position: relative;
-    top: 34vh;
+    top: 14vh;
+    /* width: 680px; */
 }
 .homePortfolioLink{
     grid-column-start: 3;
@@ -140,10 +163,11 @@
     grid-row-start: 6;
     grid-row-end: 6; 
     position: relative;
-    bottom: 5vh;
+    bottom: 35vh;
     left: 55vw;
     font-size: x-large;
     width: 700px;
+    
 }
 .homeContactLink{
     grid-column-start: 1;
@@ -153,8 +177,8 @@
     font-size: x-large;
     width: 700px;
     position: relative;
-    top:105vh;
-    right: 15vw;
+    top:90vh;
+    right: 45vw;
 }
 .homeContactImage{
     grid-column-start: 4;
@@ -162,8 +186,9 @@
     grid-row-start: 7;
     grid-row-end: 7; 
     position: relative;
-    top: 59.5vh;
-    left: 33.5vw;
+    top: 43.5vh;
+    /* right: 3.5vw; */
+    /* width: 680px; */
     
 }
 .homeFooterDiv{
@@ -174,5 +199,5 @@
     position: relative;
     top: 93.5vh;
     /* left:33.5vw; */
-    width: 100%;
-}
+    /* width: 100%; */
+ }  
