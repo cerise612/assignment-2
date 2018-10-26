@@ -33,7 +33,14 @@
 .contactBtn{
     background-color: white;
     border-radius: 6px;
-    height: 5vh;
+    height: 6vh;
     width: 8vw;
     font-size: small;
+    text-align: center;
+}
+.errorCancelBtn{
+    background-color: black;
+    border-radius: 6px;
+    height: 6vh;
+    width: 5vw;
 }

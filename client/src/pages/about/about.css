@@ -1,0 +1,15 @@
+.contentDiv{
+    margin-top: 2vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: justify;
+    line-height: 200%;
+
+}
+#aboutPhoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

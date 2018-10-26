@@ -151,10 +151,10 @@ class Home extends Component {
             </Paragraph>
         </div>
         <div className="homeContactImage">
-        <img src={ContactImage} alt="landscape" id="contactPhoto" width="836px" height="500px"/>
+        <img src={ContactImage} alt="landscape" id="contactPhoto" width="840px" height="500px"/>
         </div>
         </div>
-      {/* <div className="homeFooterDiv"><Footer /></div> */}
+      <div className="homeFooterDiv"><Footer /></div>
     </div>
     )
   }
