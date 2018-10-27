@@ -1,0 +1,52 @@
+.PortfolioPage{
+    
+}
+.PortfolioMessage{
+    text-align: center;
+}
+.PortfolioInstructions{
+    text-align: center;
+}
+.cardHolder{
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display: flex;
+}
+.card2{
+    margin-left: 2vw;
+}
+.wggCardTitle{
+    text-align: center;
+}
+.wggCardDescription{
+    text-align: center;
+}
+.attackCardTitle{
+    text-align: center;
+}
+.attackCardDescription{
+    text-align: center;
+}
+#wordGuessGameImage{
+    height: 15vh;
+    width: 15vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#attackGameImage{
+    height: 15vh;
+    width: 15vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.content {
+    min-height: calc(90vh - 30px);
+  }
+  /* .contentInside {
+    padding: 20px;
+    padding-bottom: 50px;
+  } */
+  .portfolioFooter {
+    height: 10px;
+  }

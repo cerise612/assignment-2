@@ -15,12 +15,12 @@ class Footer extends Component {
                                                 <p>&copy; 2018</p>
                                         </div>
                                 </div>
-                                <div className="footerSearch">
+                                {/* <div className="footerSearch">
                                         <div className="searchDiv">
                                                 <FormInput className="FooterSearchField" type="text" name="search" value="search"> </FormInput>
                                         </div>
                                         <Btn className="footerSearchBtn">Search</Btn>
-                                </div>
+                                </div> */}
                         </div>
                 )
         }
