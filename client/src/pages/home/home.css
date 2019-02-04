@@ -1,7 +1,7 @@
 .HomePage{
     display: grid;
     grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-rows: 9vh 15vh 10vh 15vh 15vh 25vh 25vh 5vh
+    grid-template-rows: 15vh 15vh 10vh 15vh 15vh 25vh 25vh 5vh
 }
 .homeNavBarDiv{
     grid-column-start: 1;
@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 35vh;
+    margin-top: 5vh;
 }
 .homeTitleDiv{
     grid-column-start: 1;
@@ -93,6 +94,7 @@
     position: relative;
     top: 10vh;
     left:23vw;
+    margin-top: 25vh;
 }
 .heartImage{
     grid-column-start: 1;
@@ -102,6 +104,7 @@
     position: relative;
     top: 10vh;
     left:41vw;
+    margin-top: 25vh;
 }
 .eyeImage{
     grid-column-start: 1;
@@ -111,6 +114,7 @@
     position: relative;
     top: 12vh;
     left:57vw;
+    margin-top: 25vh;
 }
 .starList{
     grid-column-start: 1;

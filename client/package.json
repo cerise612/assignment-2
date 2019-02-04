@@ -5,6 +5,7 @@
   "proxy": "http://localhost:3001/",
   "description": "",
   "main": "index.js",
+  "homepage": "www.danielledoty.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -1,7 +1,7 @@
 .HomePage{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 9vh 25vh 5vh
+    grid-template-rows: 5vh 10vh 3vh
 }
 .contactNavBarDiv{
     grid-column-start: 1;
@@ -26,15 +26,27 @@
 }
 .contactNameField{
     margin-bottom: 2vh;
+    /* position: relative;
+    left:5vw; */
+    height: 3vh;
 }
 .contactEmailField{
     margin-bottom: 2vh;
+    /* position: relative;
+    left:3vw; */
+    height: 3vh;
 }
 .contactCompanyField{
     margin-bottom: 2vh;
+    /* position: relative;
+    left:3vw; */
+    height: 3vh;
 }
 .contactMessageField{
     margin-bottom: 2vh;
+    /* position: relative;
+    left:3vw; */
+    height: 3vh;
 }
 .contactSide2{
     grid-column-start: 2;
@@ -47,11 +59,35 @@
     position: relative;
     bottom:22vh;
     left: 20vw;
+    margin-top: 5vh
 }
+/* .content {
+    min-height: calc(80vh -50px);
+  } */
+
 .contactFooterDiv{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 3;
     width: 100%;
+    position: relative;
+    bottom:4vh;
+    /* height: 5px; */
+}
+#ContactPageImage{
+    height: 33vh;
+    /* margin-top: 5vh; */
+}
+
+hr{
+    width: 25vw;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 1vw;
+    position: relative;
+    /* bottom:8vh; */
+    right:40vw;
 }

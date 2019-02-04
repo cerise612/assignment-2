@@ -12,7 +12,7 @@ class Footer extends Component {
                                                 <p>DDoty</p>
                                         </div>
                                         <div className="footerCopyright">
-                                                <p>&copy; 2018</p>
+                                                <p>&copy; 2019</p>
                                         </div>
                                 </div>
                                 {/* <div className="footerSearch">
