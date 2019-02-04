@@ -169,7 +169,7 @@
     position: relative;
     bottom: 35vh;
     left: 55vw;
-    font-size: large;
+    font-size: x-large;
     width: 700px;
     
 }
@@ -178,7 +178,7 @@
     grid-column-end: 4;
     grid-row-start: 7;
     grid-row-end: 7;
-    font-size: large;
+    font-size: x-large;
     width: 700px;
     position: relative;
     top:90vh;
